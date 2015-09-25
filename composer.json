@@ -1,13 +1,13 @@
 {
-    "name": "erivello/pdf-service-provider",
+    "name": "betzholz/pdf-service-provider",
     "description": "A Pdf service provider for Silex, based on Zend_Pdf library.",
     "keywords": ["silex", "zend", "pdf"],
     "license": "MIT",
     "minimum-stability" : "dev",
     "authors": [
         {
-            "name": "Edoardo Rivello",
-            "email": "edoardo.rivello@gmail.com"
+            "name": "Boris",
+            "email": "boris@compu-ag.de"
         }
     ],
     "repositories": [
@@ -19,14 +19,14 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendpdf": "2.0.*",
-        "silex/silex": "1.0.*"
+        "silex/silex": "~1.3"
     },
     "suggest": {
         "silex/silex": "for the integration with your silex application"
     },
     "autoload": {
         "psr-0": { 
-            "Erivello": "src"
+            "betzholz": "src"
         }
     }
 }
