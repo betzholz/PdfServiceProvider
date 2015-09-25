@@ -24,7 +24,7 @@ Or [download composer.phar][4] into the project root.
 
     "require": {
         "php": "> 5.3.3",
-        "erivello/pdf-service-provider": "dev-develop"
+        "betzholz/pdf-service-provider": "dev-master"
     }
 
 ### Install Dependencies
